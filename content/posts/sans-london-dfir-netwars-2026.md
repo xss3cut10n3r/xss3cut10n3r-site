@@ -1,6 +1,6 @@
 ---
 title: "SANS London DFIR NetWars 2026"
-subtitle: "Back for another NetWars, Forensics this time."
+subtitle: "Back for another NetWars, forensics this time."
 description: "A short look back at SANS London DFIR NetWars 2026: Windows, network and memory forensics, a first-place finish, and putting fvol to use."
 date: 2026-11-07
 draft: false
