@@ -1,11 +1,11 @@
 /* Homepage additions on top of Dimension's main.css. */
 
 body, input, select, textarea { font-family: "Source Sans 3", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-weight: 400; }
-strong, b { font-weight: 600; }
-h1, h2, h3, h4 { font-family: "EB Garamond", Garamond, "Times New Roman", serif; font-weight: 600; letter-spacing: 0.06rem; }
+strong, b { font-weight: 400; }
+h1, h2, h3, h4 { font-family: "EB Garamond", Garamond, "Times New Roman", serif; font-weight: 400; letter-spacing: 0.06rem; }
 #header .content .inner h1 { letter-spacing: 0.3rem; }
 #header .content p { letter-spacing: 0.15rem; text-transform: uppercase; font-size: 0.8rem; }
-#header nav ul li a { font-weight: 500; }
+#header nav ul li a { font-weight: 400; }
 /* Frosted-glass tint behind the menu so it reads more clearly over the photo. */
 #header nav ul { background-color: rgba(255, 255, 255, 0.06); -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); }
 
@@ -30,7 +30,7 @@ h1, h2, h3, h4 { font-family: "EB Garamond", Garamond, "Times New Roman", serif;
 .entry-list, .results, .contact-list { list-style: none; padding-left: 0; }
 .entry-list li { padding: 1.1rem 0; border-top: solid 1px rgba(255, 255, 255, 0.12); }
 .entry-list li:last-child { border-bottom: solid 1px rgba(255, 255, 255, 0.12); }
-.entry-title { display: block; font-family: "EB Garamond", Garamond, "Times New Roman", serif; font-size: 1.3rem; font-weight: 600; line-height: 1.4; color: #ffffff; border-bottom: 0; }
+.entry-title { display: block; font-family: "EB Garamond", Garamond, "Times New Roman", serif; font-size: 1.3rem; font-weight: 400; line-height: 1.4; color: #ffffff; border-bottom: 0; }
 .entry-title:hover { text-decoration: underline; text-underline-offset: 4px; }
 .entry-desc { display: block; margin-top: 0.35rem; font-size: 0.85rem; line-height: 1.5; color: rgba(255, 255, 255, 0.55); }
 .results li { padding-left: 0; margin-bottom: 0.6rem; }

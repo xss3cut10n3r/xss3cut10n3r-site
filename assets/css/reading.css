@@ -6,19 +6,26 @@ body:has(.reading-shell) { background: var(--bg, #13151a); color: var(--text-pri
 .reading-article.post-content { padding: 0; overflow: visible; min-width: 0; }
 .reading-header { padding-bottom: 32px; margin-bottom: 36px; border-bottom: 1px solid var(--reading-line); }
 .reading-meta { font-size: 14px; color: var(--reading-muted); margin-bottom: 18px; }
-.reading-header h1 { font-family: "EB Garamond", Garamond, "Times New Roman", serif; font-weight: 500; font-size: clamp(2.2rem, 4.4vw, 3.4rem); line-height: 1.12; letter-spacing: 0; color: inherit; text-shadow: none; }
+.reading-header h1 { font-family: "EB Garamond", Garamond, "Times New Roman", serif; font-weight: 400; font-size: clamp(2.2rem, 4.4vw, 3.4rem); line-height: 1.12; letter-spacing: 0; color: inherit; text-shadow: none; }
 .reading-deck { margin-top: 20px; font-size: 20px; line-height: 1.55; color: var(--reading-muted); }
 .reading-body { font-family: "Source Sans 3", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 18px; line-height: 1.85; overflow-wrap: anywhere; }
 .reading-body p, .reading-body li { color: inherit; font-size: inherit; line-height: inherit; }
 .reading-body p { margin: 0 0 1.35em; }
-.reading-body h2, .reading-body h3, .reading-body h4 { font-family: "EB Garamond", Garamond, "Times New Roman", serif; font-weight: 600; color: inherit; line-height: 1.3; margin: 2em 0 .8em; letter-spacing: 0; scroll-margin-top: 28px; }
+.reading-body h2, .reading-body h3, .reading-body h4 { font-family: "EB Garamond", Garamond, "Times New Roman", serif; font-weight: 400; color: inherit; line-height: 1.3; margin: 2em 0 .8em; letter-spacing: 0; scroll-margin-top: 28px; }
 .reading-body h2 { font-size: 1.65rem; }.reading-body h3 { font-size: 1.3rem; }
 .reading-body h2::before { display: none; }
-.reading-body strong { color: inherit; }.reading-body em { font-style: italic; color: inherit; font-weight: inherit; }
+.reading-body strong, .reading-body b { color: inherit; font-weight: 400; }.reading-body em { font-style: italic; color: inherit; font-weight: inherit; }
 .reading-body a { text-decoration: underline; text-underline-offset: 4px; }
 .reading-body blockquote { border-left: 3px solid var(--reading-accent); margin: 28px 0; padding: 12px 24px; color: var(--reading-muted); background: transparent; }
 .reading-body blockquote p:last-child { margin-bottom: 0; }
 .reading-body img { display: block; max-width: 100%; height: auto; margin: 24px auto; border-radius: 8px; }
+/* App screen sequences wrap into a single column on small phones. */
+.reading-body .app-screens { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); gap: 20px; align-items: start; margin: 32px 0; }
+.reading-body .app-screens figure { min-width: 0; margin: 0; }
+.reading-body .app-screens img, .reading-body .app-screen-single img { box-sizing: border-box; width: 100%; margin: 0 0 12px; border: 1px solid var(--reading-line); }
+.reading-body .app-screens img { aspect-ratio: var(--screen-ratio, 780 / 726); object-fit: contain; background: #faf7f0; }
+.reading-body .app-screen-single { max-width: 340px; margin: 32px auto; }
+.reading-body .app-screens figcaption, .reading-body .app-screen-single figcaption { font-size: 14px; line-height: 1.5; color: var(--reading-muted); text-align: center; }
 .reading-body pre { max-width: 100%; overflow-x: auto; padding: 22px; border: 1px solid var(--reading-line); border-radius: 8px; background: #181b20; font-size: inherit; line-height: 1.65; white-space: pre; overflow-wrap: normal; }
 .reading-body pre code { padding: 0; background: transparent; color: #eef1f3; font-size: inherit; white-space: pre; }
 .reading-body :not(pre) > code { background: rgba(128,160,140,.14); color: inherit; padding: 2px 6px; border-radius: 4px; font-size: .88em; }
@@ -51,7 +58,7 @@ body:has(.reading-shell) { background: var(--bg, #13151a); color: var(--text-pri
 
 
 /* In-body H1s (pasted writeups) sit below the page title, so size them like section headings. */
-.reading-body h1 { font-family: "EB Garamond", Garamond, "Times New Roman", serif; font-weight: 600; font-size: 2rem; line-height: 1.25; letter-spacing: 0; color: inherit; margin: 1.4em 0 .8em; }
+.reading-body h1 { font-family: "EB Garamond", Garamond, "Times New Roman", serif; font-weight: 400; font-size: 2rem; line-height: 1.25; letter-spacing: 0; color: inherit; margin: 1.4em 0 .8em; }
 
 .reading-series { display: inline-block; margin-bottom: 14px; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12px; letter-spacing: .14em; text-transform: uppercase; text-decoration: none; }
 .reading-header .reading-meta { margin: 22px 0 0; }

@@ -18,6 +18,7 @@
 html, body { background: var(--bg); color: var(--text-primary); }
 body { font-family: "Source Sans 3", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
 a { color: var(--accent-primary); }
+h1, h2, h3, h4, h5, h6, strong, b, th, dt { font-weight: 400; }
 
 .reading-progress {
   position: fixed;
@@ -41,7 +42,7 @@ a { color: var(--accent-primary); }
   padding: 1.5rem 40px 0;
 }
 .site-nav .logo {
-  font-weight: 600;
+  font-weight: 400;
   text-decoration: none;
   color: var(--text-primary);
   letter-spacing: -.01em;
@@ -75,7 +76,7 @@ a { color: var(--accent-primary); }
 .container { max-width: 1180px; margin: 0 auto; padding: 0 40px; }
 .posts-list { max-width: 760px; margin: 0 auto; }
 .post-item { padding: 1.4rem 0; border-bottom: 1px solid var(--border-color); }
-.post-item-title { margin: 0; font-size: 1.25rem; font-weight: 600; line-height: 1.35; }
+.post-item-title { margin: 0; font-size: 1.25rem; font-weight: 400; line-height: 1.35; }
 .post-item-title a { color: var(--text-primary); text-decoration: none; }
 .post-item-title a:hover { color: var(--accent-primary); }
 .post-item-meta { margin: .35rem 0 0; font-size: .85rem; color: var(--text-muted); }
@@ -91,7 +92,7 @@ a { color: var(--accent-primary); }
 .toc li a:hover { color: var(--text-primary); }
 .toc li a.active { color: var(--text-primary); border-left-color: var(--accent-primary); }
 .not-found { max-width: 760px; }
-.not-found h1 { font-size: 2.4rem; font-weight: 600; margin: 0 0 1rem; }
+.not-found h1 { font-size: 2.4rem; font-weight: 400; margin: 0 0 1rem; }
 .not-found p { color: var(--text-muted); line-height: 1.7; }
 
 /* Code blocks: language label strip plus a copy button (site.js handles the click). */
@@ -108,12 +109,12 @@ a { color: var(--accent-primary); }
 /* Writeups archive heading. */
 .list-index { max-width: 1100px; }
 .list-hero { text-align: center; padding: 3rem 0 2.5rem; }
-.list-title { margin: 0; font-size: clamp(2.4rem, 5vw, 3.4rem); line-height: 1.05; letter-spacing: -.03em; font-weight: 600; color: var(--text-primary); }
+.list-title { margin: 0; font-size: clamp(2.4rem, 5vw, 3.4rem); line-height: 1.05; letter-spacing: -.03em; font-weight: 400; color: var(--text-primary); }
 .list-sub { margin: .9rem 0 0; color: var(--text-muted); font-size: .95rem; }
 @media (max-width: 600px) { .list-hero { padding: 2rem 0 1.75rem; } }
 
 /* Headings and titles in EB Garamond; body text stays in Source Sans. */
 .site-nav .logo, .post-item-title, .list-title, .not-found h1 { font-family: "EB Garamond", Garamond, "Times New Roman", serif; }
-.site-nav .logo { font-size: 1.2rem; font-weight: 600; letter-spacing: 0; }
-.post-item-title { font-size: 1.45rem; font-weight: 600; }
-.list-title { font-weight: 500; letter-spacing: 0; }
+.site-nav .logo { font-size: 1.2rem; font-weight: 400; letter-spacing: 0; }
+.post-item-title { font-size: 1.45rem; font-weight: 400; }
+.list-title { font-weight: 400; letter-spacing: 0; }

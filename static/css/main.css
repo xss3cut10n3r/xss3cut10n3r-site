@@ -141,7 +141,7 @@
 
 	strong, b {
 		color: #ffffff;
-		font-weight: 600;
+		font-weight: 400;
 	}
 
 	em, i {
@@ -154,7 +154,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
-		font-weight: 600;
+		font-weight: 400;
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
 		text-transform: uppercase;
@@ -918,7 +918,7 @@
 
 		dl dt {
 			display: block;
-			font-weight: 600;
+			font-weight: 400;
 			margin: 0 0 1rem 0;
 		}
 
@@ -955,7 +955,7 @@
 		table th {
 			color: #ffffff;
 			font-size: 0.9em;
-			font-weight: 600;
+			font-weight: 400;
 			padding: 0 0.75em 0.75em 0.75em;
 			text-align: left;
 		}
@@ -1070,7 +1070,7 @@
 		.button.special {
 			background-color: #ffffff;
 			color: #1b1f22 !important;
-			font-weight: 600;
+			font-weight: 400;
 		}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
