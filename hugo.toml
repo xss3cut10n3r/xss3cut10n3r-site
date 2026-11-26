@@ -4,9 +4,9 @@ title = "Tomi Bodwell Mamic"
 disableKinds = ["taxonomy", "term"]
 
 [params]
-  description = "Penetration testing intern at LRQA and cybersecurity student at SANS. Writeups, research, and CV."
-  seoTitle = "Tomi Bodwell Mamic | Pentesting & Security Research"
-  tagline = "Penetration Tester · Applied Cybersecurity Student"
+  description = "Security researcher, intern at LRQA, and cybersecurity student at SANS. Writeups, research, and CV."
+  seoTitle = "Tomi Bodwell Mamic | Security Researcher"
+  tagline = "Security Researcher · Applied Cybersecurity Student"
   keywords = ["Tomi Bodwell Mamic", "Tomislav Bodwell Mamic", "XSS3cut10n3r", "cybersecurity", "penetration testing", "cryptography", "web application security", "incident response", "digital forensics", "NSA Codebreaker", "National Cyber League", "security research"]
 
 [params.author]
